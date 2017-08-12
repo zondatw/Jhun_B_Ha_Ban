@@ -1,0 +1,17 @@
+body .page-header{
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	line-height:5px;
+	width:175px;
+	height:90px;
+	margin: 10px auto;
+}
+
+body .page-header img{
+	width: 40px;
+	height: 40px;
+}
+
+body .page-footer span{
+	width:175px;
+}

@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+	"icons": {"512": "icon/off_work.png"},
+    "name": "準B哈班",
+    "description": "準B哈班",
+    "version": "1.0.0",
+    "browser_action":
+    {
+        "default_icon": "icon/off_work.png",
+        "default_popup": "html/popup.html"
+    },
+	"background" : {
+        "scripts" : ["js/alarm_get_off_work.js"],
+        "persistent" : true
+    },
+	"permissions" : [
+		"alarms",
+		"notifications",
+		"storage"
+    ]
+}
